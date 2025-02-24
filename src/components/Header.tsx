@@ -12,10 +12,10 @@ const Header: React.FC = () => {
   const cartCount = useSelector((state: RootState) => state.cart.count)
 
   return (
-    <header className="bg-primary text-primary-foreground shadow-md">
-      <div className="container mx-auto flex justify-between items-center py-4 px-4">
-        <h1 className="text-2xl font-bold">My Store</h1>
-        <div className="flex items-center space-x-4">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container mx-auto flex h-14 items-center justify-between px-4">
+        <h1 className="text-xl font-semibold">My Store</h1>
+        <div className="flex items-center gap-4">
           <SearchBox />
           <Cart />
           <ModeToggle />
