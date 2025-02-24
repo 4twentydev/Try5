@@ -7,7 +7,7 @@ import { ThemeProvider } from "./components/theme-provider"
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+    
       <Provider store={store}>
         <Router>
           <div className="App min-h-screen bg-background text-foreground">
@@ -20,7 +20,6 @@ function App() {
           </div>
         </Router>
       </Provider>
-    </ThemeProvider>
   )
 }
 
