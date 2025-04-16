@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
-        <h1 className="text-xl font-semibold">My Store</h1>
+        <h1 className="text-xl text-sky-400y">Rhinestoner</h1>
         <div className="flex items-center gap-4">
           <SearchBox />
           <Cart />
